@@ -1,4 +1,4 @@
-# Scrapy settings for dou_scraper project
+# Scrapy settings for jobs_scraper project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,16 +7,16 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "dou_scraper"
+BOT_NAME = "jobs_scraper"
 
-SPIDER_MODULES = ["dou_scraper.spiders"]
-NEWSPIDER_MODULE = "dou_scraper.spiders"
+SPIDER_MODULES = ["jobs_scraper.spiders"]
+NEWSPIDER_MODULE = "jobs_scraper.spiders"
 
 ADDONS = {}
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "dou_scraper (+http://www.yourdomain.com)"
+#USER_AGENT = "jobs_scraper (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -41,13 +41,13 @@ DOWNLOAD_DELAY = 1
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    "dou_scraper.middlewares.DouScraperSpiderMiddleware": 543,
+#    "jobs_scraper.middlewares.DouScraperSpiderMiddleware": 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    "dou_scraper.middlewares.DouScraperDownloaderMiddleware": 543,
+#    "jobs_scraper.middlewares.DouScraperDownloaderMiddleware": 543,
 #}
 
 # Enable or disable extensions
@@ -59,7 +59,7 @@ DOWNLOAD_DELAY = 1
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    "dou_scraper.pipelines.DouScraperPipeline": 300,
+#    "jobs_scraper.pipelines.DouScraperPipeline": 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
